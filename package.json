@@ -1,0 +1,28 @@
+{
+  "name": "feishu-drive-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cheerio": "1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "joi": "^17.11.0",
+    "minimist": "^1.2.8",
+    "puppeteer": "^21.3.8"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.41",
+    "@types/cli-progress": "^3.11.4",
+    "@types/minimist": "^1.2.4",
+    "@types/node": "^20.8.7",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
